@@ -21,15 +21,14 @@ export const QrCodeScanner = () => {
 
     return (
         <div className="container">
+            <a href={scanned}>{scanned}</a>
             <Scanner
                 onScan={scanHandler}
                 components={settings}
                 styles={{
-                    container: {width: "30%", height: "30%"}
+                    container: {width: "50%", height: "50%"}
                 }}
             />
-            <a href={scanned}>{scanned}</a>
-
         </div>
     );
 };

@@ -26,7 +26,7 @@ export const QrCodeGenerator = () => {
   return (
       <div className='container'>
       {showQr !== `` && (
-          <QRCodeSVG value= {showQr} size = "500" fgColor="#e48ae9" bgColor="#1D1C1C" />
+          <QRCodeSVG value= {showQr} size = "40%" fgColor="#e48ae9" bgColor="#1D1C1C" />
       )}
       <input
           type="text"
