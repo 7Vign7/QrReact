@@ -1,0 +1,8 @@
+.nav {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav a {
+    font-size: 24px;
+}
