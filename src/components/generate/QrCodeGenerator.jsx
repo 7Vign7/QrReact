@@ -32,8 +32,9 @@ export const QrCodeGenerator = () => {
           type="text"
           value={defaultText}
           onChange={onChangeHandler}
+          className={style.input}
       />
-      <button type="button" onClick={onClickHandler}>
+      <button type="button" onClick={onClickHandler} className={style.button}>
         Сгенерировать Qr
       </button>
 
